@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <style>
+        body{
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #269b78, #269b7e);
+      height: 100vh;
+      margin: 0;
+        }
+
+        .titulo {
+        padding-top: 60px;
+        text-align: center;
+     }
+        .container {
+        background: #a1e2ddb6;
+        padding: 50px 40px;
+        border-radius: 30px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+        width: 350px;
+        text-align: center;
+        transition: all 0.3s ease;
+        }
+
+        .servicos{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 200px;;
+
+        }
+
+        .container:hover {
+        transform: scale(1.02);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    }
+
+    </style>
+
+    <h1 class="titulo">Funções</h1>
+    <div class="servicos">
+    
+        <div class="container">
+            <div><h2>Cadastro de Produtos </h2></div>
+            <div><p>É um registro organizado das informações sobre os produtos que uma empresa vende, fabrica ou armazena.
+                Uma lista (normalmente feita num sistema ou planilha) onde cada produto tem seus dados principais salvos</p></div>
+        </div>    
+
+        <div class="container">
+            <div> <h2>Visualização de Produtos</h2></div>
+       <div><p>A visualização de produtos é a parte do sistema onde o usuário consegue ver todos os produtos que já foram cadastrados.
+          Essa visualização permite consultar os itens com facilidade, tornando o controle do estoque muito mais rápido e eficiente.</p></div>
+         </div>
+
+        
+        <div class="container">
+            <div> <h2>Entrada e Saída de Estoque</h2></div>
+            <div><p> É o controle de tudo que entra e sai do estoque de uma empresa. 
+                 Esse controle é essencial para evitar falta de produtos, excessos e manter o registro sempre atualizado.</p></div>
+       
+
+        </div> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <style>
+         body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #269b78, #269b7e);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+    }
+
+    .container {
+      background: #a1e2ddb6;
+      padding: 50px 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+      width: 350px;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .container:hover {
+      transform: scale(1.02);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      margin-bottom: 25px;
+      color: #222;
+      font-size: 1.8rem;
+      letter-spacing: 0.5px;      
+    }
+
+
+    label {
+      display: block;
+      text-align: left;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 8px;
+      margin-top: 15px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #9ea3a2;
+      border-radius: 10px;
+      font-size: 1rem;
+      outline: none;
+      transition: all 0.3s;
+      background-color: #f9f9f9;
+    }
+
+    input:focus {
+      border-color: #2a988f;
+      background-color: #82dbc0b7;
+      box-shadow: 0 0 5px rgba(42, 152, 115, 0.3);
+    }
+
+    button {
+      width: 100%;
+      margin-top: 25px;
+      padding: 12px;
+      background: linear-gradient(135deg, #2a9889, #1e7264);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 5px 15px rgba(42, 139, 152, 0.3);
+    }
+
+    button:hover {
+      background: linear-gradient(135deg, #1e726b, #0d4946);
+      transform: translateY(-2px);
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    .footer a {
+      color: #2a9886;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    </style>
+</body>
+
+<div class="container">
+    <h1>Tela de Autenticação</h1>
+    <form action="/login" method="post">
+        <div class="mb-3">
+            <label for="usuario" from="form-label">Usuário</label>
+            <input type="text" name="usuario" class="from-control">
+        </div>
+        <div class="mb-3">
+            <label for="senha" class="form-label">Senha</label>
+            <input class="from-control" type="password" name="senha">
+          </div>
+        <button type="submit" class="btn btn-secondary">Entrar</button>
+        
+
+    </form>
+</div>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
